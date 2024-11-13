@@ -50,7 +50,31 @@ ul, ol {
     margin-left: 20px;
 }
 
-img {
+.materiaisutilizados {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px; 
+    padding: 20px;
+}
+
+.materiaisutilizados img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.image img{
+
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.imageDiagrama img{
     width: 100%;
     max-height: 300px;
     object-fit: cover;
